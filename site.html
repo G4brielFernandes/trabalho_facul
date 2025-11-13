@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Bem-vindo - Grupo 2</title>
+  <link rel="stylesheet" href="./estilo/site.css">
+</head>
+<body>
+
+  <h1>Bem-vindo, {{ nome }}!</h1>
+  <img src="{{ url_for('static', filename='gatim.png') }}" alt="gatinho fofo" width="300">
+  <a href="/login">Sair</a>
+</body>
+</html>
