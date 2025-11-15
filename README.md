@@ -1,9 +1,10 @@
 # Sistema de Login com Criptografia (Flask)
 
-
+Projeto web desenvolvido em **Python (Flask)** que demonstra como funciona o processo de **registro e login com senha criptografada**, usando **hashes com salt** para proteger os dados do usuário.  
+Além disso, exibe uma tela divertida de boas-vindas com o gatinho “ Dá um 10 aí, professor!” 
 
 </div>
-<h2>🔷 Equipe:</h2> 
+<h2> Equipe:</h2> 
 <div>
   <table>
     <td align="center">
@@ -41,12 +42,6 @@
     </tr>
   </table>
 </div>
-
-
-
-
-Projeto web desenvolvido em **Python (Flask)** que demonstra como funciona o processo de **registro e login com senha criptografada**, usando **hashes com salt** para proteger os dados do usuário.  
-Além disso, exibe uma tela divertida de boas-vindas com o gatinho “ Dá um 10 aí, professor!” 
 
 ---
 
