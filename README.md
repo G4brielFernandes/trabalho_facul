@@ -8,11 +8,11 @@ Além disso, exibe uma tela divertida de boas-vindas com o gatinho “ Dá um 10
 <div>
   <table>
     <td align="center">
-          <a href="">
-            <img src="" alt="Ayslam Gadelha"
+          <a href="https://github.com/AYSLANGADELHA">
+            <img src="https://avatars.githubusercontent.com/u/169999742?v=4" alt="Ayslan Gadelha"
              width="100px"/>
             <br />
-            <sub><b>Ayslam Gadelha</b></sub>
+            <sub><b>Ayslan Gadelha</b></sub>
           </a>
       </td>
     <td align="center">
