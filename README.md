@@ -61,9 +61,6 @@ Além disso, exibe uma tela divertida de boas-vindas com o gatinho “ Dá um 10
 3. Esses dados são salvos em um arquivo `dados.txt` no formato:
 salt
 hash_da_senha
-
-yaml
-Copiar código
 4. Quando o usuário tenta fazer login:
 - O sistema lê o `salt` e o `hash` salvos.  
 - Aplica o mesmo processo de hash (`sha256(salt + senha_digitada)`).  
