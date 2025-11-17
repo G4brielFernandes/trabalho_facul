@@ -98,8 +98,6 @@ login.html: página de autenticação do usuário.
 
 bemvindo.html: página apresentada após o login bem-sucedido.
 
-yaml
-Copiar código
 
 ---
 
@@ -128,6 +126,5 @@ Copiar código
 python app.py
 Abrir no navegador
 
-cpp
 Copiar código
 http://127.0.0.1:5000
