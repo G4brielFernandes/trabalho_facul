@@ -1,0 +1,115 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* FUNDO PRETO + ROXO DEGRADÊ ANIMADO */
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, #000000, #3a0066, #9000ff, #2a003e);
+  background-size: 400% 400%;
+  animation: fundoRoxo 10s ease infinite;
+  z-index: -1;
+}
+
+@keyframes fundoRoxo {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+/* TITULO */
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.9);
+  animation: fadeIn 2s ease-in-out;
+}
+
+/* GATO */
+img#gato {
+  border-radius: 20px;
+  width: 300px;
+  height: auto;
+  transition: transform 0.8s ease, box-shadow 0.8s ease;
+  box-shadow: 0 10px 30px rgba(255,255,255,0.2);
+  animation: fadeIn 2s ease-in-out;
+  cursor: pointer;
+}
+
+img#gato:hover {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 15px 40px rgba(255,255,255,0.5);
+}
+
+/* BOTÃO DAR 10 */
+button#dar10 {
+  margin-top: 25px;
+  padding: 12px 25px;
+  background: linear-gradient(45deg, #8a00ff, #c300ff);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.3s ease, background 0.5s ease;
+  box-shadow: 0 5px 20px rgba(150, 0, 255, 0.5);
+}
+
+button#dar10:hover {
+  transform: scale(1.1);
+  background: linear-gradient(45deg, #c300ff, #8a00ff);
+}
+
+/* BOTÃO SAIR */
+a {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgba(255,255,255,0.1);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: rgba(255,255,255,0.2);
+}
+
+/* ANIMAÇÃO ENTRADA */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* CONFETTI */
+canvas#confetti {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+}
