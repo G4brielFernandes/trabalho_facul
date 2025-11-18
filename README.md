@@ -125,3 +125,22 @@ Abrir no navegador
 
 Copiar código
 http://127.0.0.1:5000
+
+---
+
+
+### Screenshots
+
+Tela de Login:
+![Imagem 1](Screenshots1/Captura%20de%20tela%202025-11-17%20214428.png)
+
+Tela de Cadastro:
+![Imagem 2](Screenshots1/Captura%20de%20tela%202025-11-17%20214447.png)
+
+Tela de pós realizar Login:
+![Imagem 4](Screenshots1/Captura%20de%20tela%202025-11-17%20214708.png)
+![Imagem 5](Screenshots1/Captura%20de%20tela%202025-11-17%20214722.png)
+
+Após registrar os dados as informações vão para um arquivo em TXT criptografado:
+![Imagem 6](Screenshots1/Captura%20de%20tela%202025-11-17%20215437.png)
+
