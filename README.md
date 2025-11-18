@@ -137,10 +137,10 @@ Tela de Login:
 Tela de Cadastro:
 ![Imagem 2](Screenshots1/Captura%20de%20tela%202025-11-17%20214447.png)
 
-Tela de pós realizar Login:
+Tela exibida após o login:
 ![Imagem 4](Screenshots1/Captura%20de%20tela%202025-11-17%20214708.png)
 ![Imagem 5](Screenshots1/Captura%20de%20tela%202025-11-17%20214722.png)
 
-Após registrar os dados as informações vão para um arquivo em TXT criptografado:
+Após o registro dos dados, as informações são armazenadas em um arquivo TXT criptografado:
 ![Imagem 6](Screenshots1/Captura%20de%20tela%202025-11-17%20215437.png)
 
